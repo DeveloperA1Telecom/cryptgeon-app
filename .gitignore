@@ -1,0 +1,14 @@
+
+# Backend
+target
+
+# Client
+.DS_Store
+node_modules
+/.svelte
+/build
+/functions
+.env
+.idea
+/geolocation/SxGeoCity.dat
+.vscode

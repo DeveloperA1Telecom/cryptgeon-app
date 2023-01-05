@@ -1,0 +1,47 @@
+{
+	"app": {
+		"title": "Sicherer Dienst für den Austausch von Notizen/Dateien",
+		"subtitle": "Senden Sie einfach vollständig verschlüsselte, sichere Notizen oder Dateien mit nur einem Klick. Erstellen Sie einfach eine Notiz und teilen Sie den Link.",
+		"file": "Datei",
+		"option": "Optionen",
+		"program": "Programm",
+		"privacy_policy": "Datenschutz",
+		"link": "Link erstellen",
+		"text1": "Die Notiz wird nach dem Löschen gelöscht",
+		"view": "Ansicht",
+		"minute": "Minuten",
+		"share": "link teilen",
+		"text2": "Verfügbarkeit:",
+		"text3": "das Speichern einer Notiz ist nicht garantiert, da alles im RAM gespeichert ist, wenn sie voll ist, werden die ältesten Notizen gelöscht.",
+		"text4": "(sie werden wahrscheinlich in Ordnung sein, denken Sie daran.)",
+		"new": "Neue Notiz",
+		"btn1": "Ansichten",
+		"btn2": "Minuten",
+		"worktitle": "Wie funktioniert das?",
+		"worktext": "Jede Notiz hat eine generierte ID (256 Bit) und einen 256-Bit-Schlüssel. Die ID wird zum Speichern und Abrufen der Notiz verwendet. die Notiz wird dann mit aes im GCM-Modus auf der Clientseite mit einem Schlüssel verschlüsselt und dann an den Server gesendet. die Daten werden im Speicher gespeichert und niemals auf der Festplatte gespeichert. der Server sieht den Verschlüsselungsschlüssel nie und kann den Inhalt der Notizen nicht entschlüsseln, selbst wenn er es versucht.",
+		"text5": "Besonderheiten:",
+		"text6": "der Server kann den Inhalt aufgrund der clientseitigen Verschlüsselung nicht entschlüsseln\nanzeigen und Zeitlimits\nin Erinnerung, ohne Konstanz",
+		"callbackBtn": "Rückruf bestellen",
+		"menu": {
+			"item1": "Startseite",
+			"item2": "CLOUD-TELEFONANLAGE",
+			"item3": "SIP-TRUNK",
+			"item4": "TELEFON-TRACKING",
+			"item5": "ÜBER UNS",
+			"item6": "KARRIERE",
+			"item7": "BLOG",
+			"item8": "Rückmeldungen"
+		},
+		"footerMenu": {
+			"item1": "Cloud-Telefonanlage",
+			"item2": "SIP-Trunк",
+			"item3": "Privnote",
+			"item4": "Über uns",
+			"item5": "Karriere",
+			"item6": "Blog",
+			"item7": "Datenschutz"
+		},
+		"phones": "Handys",
+		"language": "Sprache"
+	}
+}

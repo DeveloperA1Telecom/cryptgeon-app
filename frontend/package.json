@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"licenses": "license-checker --summary > licenses.csv"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@sveltejs/kit": "^1.0.0",
+		"svelte": "^3.54.0",
+		"svelte-preprocess": "^4.10.5",
+		"tslib": "^2.3.1",
+		"typescript": "^4.9.3",
+		"vite": "^4.0.0",
+		"@fontsource/fira-mono": "^4.5.10",
+		"@sveltejs/adapter-static": "^1.0.0",
+		"svelte-i18n": "^3.3.13"
+	},
+	"dependencies": {
+		"copy-to-clipboard": "^3.3.1",
+		"file-saver": "^2.0.5",
+		"pretty-bytes": "^5.6.0"
+	}
+}

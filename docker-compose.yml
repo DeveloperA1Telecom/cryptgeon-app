@@ -1,0 +1,33 @@
+# DEV Compose file.
+# For a production file see: README.md
+
+version: '3.7'
+
+services:
+  memcached:
+    image: memcached:1-alpine
+    restart: unless-stopped
+    entrypoint: memcached -m 128M -I 4M
+    ports:
+      - 127.0.0.1:11211:11211
+
+  app:
+    build: .
+    depends_on:
+      - memcached
+    environment:
+      SIZE_LIMIT: 4M
+      MAX_EXPIRATION: 1440
+      MEMCACHE: memcached:11211
+    ports:
+      - 127.0.0.1:5000:5000
+  geolocation:
+    restart: always
+    image: node
+    container_name: geolocation
+    working_dir: /usr/local/geolocation
+    volumes:
+      - "./geolocation:/usr/local/geolocation"
+    ports:
+      - "10500:10500"
+    command: bash -c "npm i && node app.js"

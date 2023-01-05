@@ -1,0 +1,47 @@
+{
+	"app": {
+		"title": "Secure note/file sharing service",
+		"subtitle": "Easily send fully encrypted, protected notes or files with one click. Just create a note and share the link.",
+		"file": "File",
+		"option": "Options",
+		"program": "Program",
+		"privacy_policy": "Privacy Policy",
+		"link": "Create a link",
+		"text1": "The note will be destroyed after",
+		"view": "viewing",
+		"minute": "minutes",
+		"share": "share a link",
+		"text2": "availability:",
+		"text3": "saving a note is not guaranteed, since everything is stored in RAM, if it fills up, the oldest notes will be deleted.",
+		"text4": "(you'll probably be fine, just keep in mind.)",
+		"new": "New note",
+		"btn1": "Views",
+		"btn2": "Minutes",
+		"worktitle": "How does it work?",
+		"worktext": "Each note has a generated identifier (256 bits) and a 256 (bit) key. The ID is used to save and retrieve the note. The note is then encrypted using AES in GCM mode on the client side with a key, and then sent to the server. The data is stored in memory and never saved to disk. the server will never see the encryption key and will not be able to decrypt the contents of the notes, even if it tries.",
+		"text5": "Features:",
+		"text6": "the server cannot decrypt the content due to client-side encryption\nviewing and time limits\nin memory, without constancy",
+		"callbackBtn": "Order a callback",
+		"menu": {
+			"item1": "HOME",
+			"item2": "HOSTED PBX",
+			"item3": "SIP-ТРАНК",
+			"item4": "Calltracking",
+			"item5": "About Us",
+			"item6": "Career",
+			"item7": "Blog",
+			"item8": "Feedbacks"
+		},
+		"footerMenu": {
+			"item1": "Cloud PBX",
+			"item2": "SIP-trunk",
+			"item3": "Privnote",
+			"item4": "About us",
+			"item5": "Career",
+			"item6": "Blog",
+			"item7": "Privacy Policy"
+		},
+		"phones": "Phones",
+		"language": "Language"
+	}
+}
