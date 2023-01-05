@@ -8,7 +8,7 @@
 <style>
 	header {
 		text-align: center;
-		margin-top: 4rem;
+		margin-top: 1rem;
 		margin-bottom: 2rem;
 	}
 
